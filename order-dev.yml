@@ -17,3 +17,4 @@ eureka:
   redis:
     host: 192.168.137.200
     port: 6379
+    password: 123456

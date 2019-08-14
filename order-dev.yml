@@ -14,5 +14,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-env:
-  555
+  rabbitmq:
+    host: 192.168.137.200
+    port: 5672
+    password: guest
+    username: guest
+  redis:
+    host: 192.168.137.200
+    port: 6379
